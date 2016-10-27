@@ -51,7 +51,7 @@ public class Booking extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Meja 2 di Booking", Toast.LENGTH_LONG).show();
 
             }
-        });
+        }); 
 
         meja3.setOnClickListener(new View.OnClickListener() {
 
