@@ -21,18 +21,6 @@ tools:context="com.pmp.ujianfiqri.LoginActivity">
         android:layout_height="match_parent"
         android:orientation="vertical" >
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="364dp"
-            android:layout_height="98dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app2:srcCompat="@drawable/wcdonalds"
-                android:id="@+id/imageView2" />
-        </LinearLayout>
-
         <TextView
             android:text="Selamat Datang di WcDonald's"
             android:layout_width="match_parent"
@@ -53,6 +41,18 @@ tools:context="com.pmp.ujianfiqri.LoginActivity">
             android:textSize="17sp"
             android:textColor="@android:color/background_light"
             android:paddingTop="10dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="364dp"
+            android:layout_height="98dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app2:srcCompat="@drawable/wcdonalds"
+                android:id="@+id/imageView2" />
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"

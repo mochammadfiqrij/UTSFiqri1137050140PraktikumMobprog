@@ -40,5 +40,53 @@ public class Booking extends AppCompatActivity {
 
             }
         });
+
+        meja2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // Get username, password from EditText
+                meja2.setVisibility(View.INVISIBLE);
+
+                Toast.makeText(getApplicationContext(), "Meja 2 di Booking", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        meja3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // Get username, password from EditText
+                meja3.setVisibility(View.INVISIBLE);
+
+                Toast.makeText(getApplicationContext(), "Meja 3 di Booking", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        meja4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // Get username, password from EditText
+                meja4.setVisibility(View.INVISIBLE);
+
+                Toast.makeText(getApplicationContext(), "Meja 4 di Booking", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        meja5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // Get username, password from EditText
+                meja5.setVisibility(View.INVISIBLE);
+
+                Toast.makeText(getApplicationContext(), "Meja 5 di Booking", Toast.LENGTH_LONG).show();
+
+            }
+        });
     }
 }
