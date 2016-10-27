@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f20818</color>
+    <color name="colorPrimaryDark">#ec090c</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="product_list_item_bg">#fff</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="jet">#000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
